@@ -85,7 +85,7 @@ const Portfolio = () => {
   return (
     <section
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full py-16"
     >
       <div className="max-w-screem-lg p-4 mx-auto flex flex-col juctify-center w-full h-full">
         <div className="pb-8">
