@@ -2,17 +2,24 @@ import React from "react";
 import { Link } from "react-scroll";
 import heroImage from "../../assets/heroImage.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Typewrite from 'typewriter-effect';
 
 const Home = () => {
   return (
-    <main
+    <section
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Front End Developer.
+          <h2 className="text-4xl sm:text-6xl font-bold text-white w-[32rem]">
+            <Typewrite options={{
+              autoStart: true,
+              loop: true,
+              delay: 50,
+              strings: ["I'm a Front End Developer"]
+            }} />
+            
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I'm an enthusiastic and detail-oriented Frontend developer seeking
@@ -42,7 +49,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 

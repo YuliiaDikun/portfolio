@@ -7,7 +7,7 @@ import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
       <Home />
       <About />
@@ -15,7 +15,7 @@ function App() {
       <Experience />
       <Contact />
       <SocialLinks />
-    </div>
+    </>
   );
 }
 

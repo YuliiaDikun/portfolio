@@ -26,7 +26,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full px-4 h-20 text-white bg-black fixed">
+    <header className="flex justify-between items-center w-full px-4 h-20 text-white bg-black fixed">
       <div>
         <h1 className="text-5xl font-signature ml-2">Yuliia</h1>
       </div>
@@ -72,7 +72,7 @@ const NavBar = () => {
           })}
         </ul>
       )}
-    </div>
+    </header>
   );
 };
 
