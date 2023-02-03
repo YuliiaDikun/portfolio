@@ -1,10 +1,11 @@
 import React from "react";
+import Typewrite from 'typewriter-effect';
 import css from "../../assets/css.png";
 import html from "../../assets/html.png";
 import js from "../../assets/javascript.png";
 import github from "../../assets/github.png";
 import react from "../../assets/react.png";
-import redux from "../../assets/redux.png";
+import redux from "../../assets/redux-icon.webp";
 import sass from "../../assets/sass.png";
 import swagger from "../../assets/swagger.png";
 import tailwind from "../../assets/tailwind.png";
@@ -71,9 +72,14 @@ const Experience = () => {
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
-          <p className="text-4xl font-cold border-b-4 border-gray-500 p-2 inline">
-            Experience
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+           <Typewrite options={{
+              autoStart: true,
+              loop: true,
+              delay: 50,
+              strings: ["Experience"]
+            }} /> 
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
