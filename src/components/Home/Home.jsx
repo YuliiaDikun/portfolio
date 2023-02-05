@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import heroImage from "../../assets/heroImage.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import TypeWriterEffect from 'react-typewriter-effect';
+import TypeWriterEffect from "react-typewriter-effect";
 
 const Home = () => {
   return (
@@ -21,13 +21,11 @@ const Home = () => {
               typeSpeed={100}
               eraseSpeed={100}
             />
-            
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I'm an enthusiastic and detail-oriented Frontend developer seeking
-            an entry-level position with сompany to use my skills in coding,
-            troubleshooting complex problems, and assisting in the timely
-            completion of projects. Skilled in HTML, CSS, and JavaScript.
+            Entry level Frontend developer with Experience in maintaining and
+            building web pages. Seeking for new opportunities and challenges
+            that will expand my skill set.
           </p>
           <div>
             <Link

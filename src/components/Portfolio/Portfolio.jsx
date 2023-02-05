@@ -76,7 +76,7 @@ const Portfolio = () => {
       code: "https://pulse.yuliiadikun.com.ua/",
       git: "https://github.com/YuliiaDikun",
       disabled: true,
-       style: 'text-gray-600'
+       style: 'text-gray-800'
     },
     {
       id: 10,
