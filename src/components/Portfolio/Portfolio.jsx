@@ -108,7 +108,7 @@ const Portfolio = () => {
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img
                   src={src}
-                  alt=""
+                  alt="demo work"
                   className="rounded-md duration-200 hover:scale-105"
                 />
                 <div className="flex items-center justify-center">
