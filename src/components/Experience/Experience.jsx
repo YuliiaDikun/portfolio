@@ -1,5 +1,5 @@
 import React from "react";
-import Typewrite from 'typewriter-effect';
+import TypeWriterEffect from 'react-typewriter-effect';
 import css from "../../assets/css.png";
 import html from "../../assets/html.png";
 import js from "../../assets/javascript.png";
@@ -74,12 +74,14 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-           <Typewrite options={{
-              autoStart: true,
-              loop: true,
-              delay: 50,
-              strings: ["Experience"]
-            }} /> 
+          <TypeWriterEffect
+              textStyle={{ fontFamily: "Raleway" }}
+              startDelay={100}
+              cursorColor="transparent"
+              text="Experience"
+              typeSpeed={100}
+              eraseSpeed={100}
+            /> 
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
@@ -91,7 +93,7 @@ const Experience = () => {
                 key={id}
                 className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
               >
-                <img src={src} alt="" className="w-20 mx-auto" />
+                <img src={src} alt={ title} className="w-20 mx-auto" />
                 <p className="mt-4">{title}</p>
               </div>
             );

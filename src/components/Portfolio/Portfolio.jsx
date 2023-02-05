@@ -1,5 +1,5 @@
 import React from "react";
-import Typewrite from 'typewriter-effect';
+import TypeWriterEffect from 'react-typewriter-effect';
 import mpg from "../../assets/portfolio/memory.png";
 import ttt from "../../assets/portfolio/ttt.png";
 import acc from "../../assets/portfolio/acc.png";
@@ -91,12 +91,14 @@ const Portfolio = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            <Typewrite options={{
-              autoStart: true,
-              loop: true,
-              delay: 50,
-              strings: ["Portfolio"]
-            }} />
+           <TypeWriterEffect
+              textStyle={{ fontFamily: "Raleway" }}
+              startDelay={100}
+              cursorColor="black"
+              text="Portfolio"
+              typeSpeed={100}
+              eraseSpeed={100}
+            /> 
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>

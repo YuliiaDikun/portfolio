@@ -1,5 +1,5 @@
 import React from "react";
-import Typewrite from 'typewriter-effect';
+import TypeWriterEffect from 'react-typewriter-effect';
 
 const Contact = () => {
   return (
@@ -7,12 +7,14 @@ const Contact = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            <Typewrite options={{
-              autoStart: true,
-              loop: true,
-              delay: 50,
-              strings: ["Contact"]
-            }} /></p>
+            <TypeWriterEffect
+              textStyle={{ fontFamily: "Raleway" }}
+              startDelay={100}
+              cursorColor="black"
+              text="Contact"
+              typeSpeed={100}
+              eraseSpeed={100}
+            /> </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
 
