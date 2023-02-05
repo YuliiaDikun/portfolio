@@ -16,7 +16,7 @@ const Home = () => {
             <TypeWriterEffect
               textStyle={{ fontFamily: "Raleway" }}
               startDelay={100}
-              cursorColor="black"
+              cursorColor="transparent"
               text="I'm a Front End Developer"
               typeSpeed={100}
               eraseSpeed={100}

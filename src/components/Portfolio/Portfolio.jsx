@@ -18,60 +18,72 @@ const Portfolio = () => {
       src: mpg,
       code: "https://yuliiadikun.github.io/memory-game/",
       git: "https://github.com/YuliiaDikun/memory-game",
+      disabled: false,
     },
     {
       id: 2,
       src: ttt,
       code: "https://yuliiadikun.github.io/Tic-tac-toe-game/",
       git: "https://github.com/YuliiaDikun/Tic-tac-toe-game",
+      disabled: false,
     },
     {
       id: 3,
       src: wallet,
       code: "https://sennarion.github.io/react-team-project/",
       git: "https://github.com/Sennarion/react-team-project",
+      disabled: false,
     },
     {
       id: 4,
       src: contacts,
       code: "https://yuliiadikun.github.io/goit-react-hw-08-phonebook/",
       git: "https://github.com/YuliiaDikun/goit-react-hw-08-phonebook",
+      disabled: false,
     },
     {
       id: 5,
       src: acc,
       code: "https://yuliiadikun.github.io/accounting/",
       git: "https://github.com/YuliiaDikun/accounting",
+      disabled: false,
     },
     {
       id: 6,
       src: meet,
       code: "https://yuliiadikun.github.io/react-route-practice-meetup/",
       git: "https://github.com/YuliiaDikun/react-route-practice-meetup",
+      disabled: false,
     },
     {
       id: 7,
       src: corona,
       code: "https://corona.yuliiadikun.com.ua/",
       git: "https://github.com/YuliiaDikun",
+      disabled: true,
+      style: 'text-gray-800'
     },
     {
       id: 8,
       src: ice,
       code: "https://yuliiadikun.github.io/Pied-Piper/",
       git: "https://github.com/YuliiaDikun/Pied-Piper",
+      disabled: false,
     },
     {
       id: 9,
       src: puls,
       code: "https://pulse.yuliiadikun.com.ua/",
-      git: "https://github.com/YuliiaDikun/Tic-tac-toe-game",
+      git: "https://github.com/YuliiaDikun",
+      disabled: true,
+       style: 'text-gray-600'
     },
     {
       id: 10,
       src: film,
       code: "https://yuliiadikun.github.io/Film-searcher-library/",
       git: "https://github.com/YuliiaDikun/Film-searcher-library",
+      disabled: false,
     },
   ];
 
@@ -94,7 +106,7 @@ const Portfolio = () => {
            <TypeWriterEffect
               textStyle={{ fontFamily: "Raleway" }}
               startDelay={100}
-              cursorColor="black"
+              cursorColor="transparent"
               text="Portfolio"
               typeSpeed={100}
               eraseSpeed={100}
@@ -103,7 +115,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => {
+          {portfolios.map(({ id, src, disabled, style }) => {
             return (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img
@@ -120,7 +132,8 @@ const Portfolio = () => {
                   </button>
                   <button
                     onClick={() => openGit(id)}
-                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                    className={`w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 ${style}`}
+                    disabled={disabled }
                   >
                     Code
                   </button>
