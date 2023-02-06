@@ -12,7 +12,7 @@ import ice from "../../assets/portfolio/ice.png";
 import meet from "../../assets/portfolio/meetups.png";
 import puls from "../../assets/portfolio/pusl.png";
 import wallet from "../../assets/portfolio/wallet.png";
-
+import flexxy from '../../assets/portfolio/flexxy.png';
 const Portfolio = () => {
   const portfolios = [
     {
@@ -95,6 +95,15 @@ const Portfolio = () => {
       code: "https://yuliiadikun.github.io/Film-searcher-library/",
       git: "https://github.com/YuliiaDikun/Film-searcher-library",
       disabled: false,
+      label: "team",
+    },
+    {
+      id: 11,
+      src: flexxy,
+      code: "https://flexyplanner.com/",
+      git: "https://github.com/YuliiaDikun",
+      disabled: true,
+      style: "text-gray-800",
       label: "team",
     },
   ];

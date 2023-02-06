@@ -23,7 +23,7 @@ const Home = () => {
             />
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Entry level Frontend developer with Experience in maintaining and
+            Entry level Frontend developer with experience in maintaining and
             building web pages. Seeking for new opportunities and challenges
             that will expand my skill set.
           </p>
