@@ -26,7 +26,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <header className="flex justify-between items-center w-full px-4 h-20 text-white bg-[#141E30] fixed">
+    <header className="flex justify-between items-center w-full px-4 h-20 text-white bg-[#141E30] fixed z-10">
       <div>
         <h1 className="text-5xl font-signature ml-2">Yuliia</h1>
       </div>
