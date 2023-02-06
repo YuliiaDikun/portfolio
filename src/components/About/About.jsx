@@ -20,17 +20,17 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          I'm an enthusiastic and detail-oriented Frontend developer seeking an
-          entry-level position with сompany to use my skills in coding,
+          I'm an enthusiastic and detail-oriented Frontend developer seeking a
+          position with сompany to use my skills in coding,
           troubleshooting complex problems, and assisting in the timely
-          completion of projects. Skilled in HTML, CSS, and JavaScript. Excels
+          completion of projects. Skilled in HTML, CSS, and JavaScript. Excel
           at creating pixel-perfect designs and working with cross-browser
           compatibility issues. I am a collaborative person who loves code and
           generating better desition that helps automate processes.
         </p>
         <br />
         <p className="text-xl">
-          I have some achievements in study development: was a team lead in
+          Here are my achievments in study development: was a team lead in
           two group projects and successfully deployed in GitHub. Also developed an
           algorithm of suggested movies based on the user's preferences. Proficient in 
           creating a responsive application, according to the design layout.
