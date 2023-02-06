@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
+      className="h-screen w-full bg-gradient-to-b from-[#141E30] to-[#243B55]"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">

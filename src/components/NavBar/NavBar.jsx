@@ -26,7 +26,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <header className="flex justify-between items-center w-full px-4 h-20 text-white bg-black fixed">
+    <header className="flex justify-between items-center w-full px-4 h-20 text-white bg-[#141E30] fixed">
       <div>
         <h1 className="text-5xl font-signature ml-2">Yuliia</h1>
       </div>
@@ -35,7 +35,7 @@ const NavBar = () => {
           return (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+              className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200"
             >
               <Link to={link} smooth duration={500}>
                 {link}
@@ -52,7 +52,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-900 text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#141E30] to-[#243B55] text-gray-500">
           {links.map(({ id, link }) => {
             return (
               <li
