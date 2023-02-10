@@ -34,8 +34,8 @@ const Portfolio = () => {
     {
       id: 3,
       src: wallet,
-      code: "https://sennarion.github.io/react-team-project/",
-      git: "https://github.com/Sennarion/react-team-project",
+      code: "https://sennarion.github.io/MyMoney/login",
+      git: "https://github.com/Sennarion/MyMoney",
       disabled: false,
       label: "team",
     },

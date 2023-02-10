@@ -9,6 +9,8 @@ import redux from "../../assets/redux-icon.webp";
 import sass from "../../assets/sass.png";
 import swagger from "../../assets/swagger.png";
 import tailwind from "../../assets/tailwind.png";
+import styled from '../../assets/styled.png';
+import vue from '../../assets/Vue.png';
 const Experience = () => {
   const techs = [
     {
@@ -31,40 +33,53 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: sass,
-      title: "SASS/SCSS",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 5,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 6,
-      src: react,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 7,
       src: redux,
       title: "Redux",
       style: "shadow-purple-600",
     },
     {
-      id: 8,
-      src: swagger,
-      title: "Swagger",
-      style: "shadow-green-500",
+      id: 5,
+      src: react,
+      title: "React",
+      style: "shadow-blue-600",
     },
     {
-      id: 9,
+      id: 6,
+      src: vue,
+      title: "Vue",
+      style: "shadow-green-800",
+    },
+    {
+      id: 7,
+      src: sass,
+      title: "SASS/SCSS",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 8,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
+    {
+      id: 9,
+      src: styled,
+      title: "Styled Components",
+      style: "shadow-gray-200",
+    },
+    {
+      id: 10,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+     {
+      id: 11,
+      src: swagger,
+      title: "Swagger",
+      style: "shadow-green-500",
+    },  
+    
   ];
   return (
     <section
