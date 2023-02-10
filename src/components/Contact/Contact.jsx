@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section
       name="contact"
-      className="w-full bg-gradient-to-b from-[#141E30] to-[#243B55] p-4 text-white h-screen"
+      className="w-full bg-gradient-to-b from-[#141E30] to-[#243B55] p-4 text-white md:h-full py-16"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">

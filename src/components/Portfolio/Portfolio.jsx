@@ -139,7 +139,7 @@ const Portfolio = () => {
             can help you to find out what kind of work it was.
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0">
           {portfolios.map(({ id, src, disabled, style, label }) => {
             return (
               <div
