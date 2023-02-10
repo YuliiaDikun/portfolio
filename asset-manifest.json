@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.644e0bd2.css",
-    "main.js": "/portfolio/static/js/main.f4ab250a.js",
+    "main.js": "/portfolio/static/js/main.06f4eeb6.js",
     "static/media/pusl.png": "/portfolio/static/media/pusl.8e0a9a1db6d413fb8dce.png",
     "static/media/filmoteka.png": "/portfolio/static/media/filmoteka.239f21020272d4419c50.png",
     "static/media/meetups.png": "/portfolio/static/media/meetups.e107d90e3151288bfc37.png",
-    "static/media/Yullia_Dikun_Frontend_Developer.pdf": "/portfolio/static/media/Yullia_Dikun_Frontend_Developer.a0eb555b95351fa30314.pdf",
+    "static/media/Yullia_Dikun_Frontend_Developer.pdf": "/portfolio/static/media/Yullia_Dikun_Frontend_Developer.7d6aaf31fe195ad1cedf.pdf",
     "static/media/flexxy.png": "/portfolio/static/media/flexxy.a3bd9a34237a7b14f425.png",
     "static/media/ice.png": "/portfolio/static/media/ice.a85331a22c60e9374291.png",
     "static/media/heroImage.png": "/portfolio/static/media/heroImage.80a30bb420e620db1f47.png",
@@ -27,10 +27,10 @@
     "static/media/redux-icon.webp": "/portfolio/static/media/redux-icon.ece8a76b1318995a873b.webp",
     "index.html": "/portfolio/index.html",
     "main.644e0bd2.css.map": "/portfolio/static/css/main.644e0bd2.css.map",
-    "main.f4ab250a.js.map": "/portfolio/static/js/main.f4ab250a.js.map"
+    "main.06f4eeb6.js.map": "/portfolio/static/js/main.06f4eeb6.js.map"
   },
   "entrypoints": [
     "static/css/main.644e0bd2.css",
-    "static/js/main.f4ab250a.js"
+    "static/js/main.06f4eeb6.js"
   ]
 }
