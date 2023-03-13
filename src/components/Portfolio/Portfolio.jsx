@@ -112,8 +112,7 @@ const Portfolio = () => {
       src: sweetCorner,
       code: "https://yuliiadikun.github.io/sweet-corner/",
       git: "https://github.com/YuliiaDikun/sweet-corner",
-      disabled: true,
-      style: "text-gray-800",
+      disabled: false,
       label: "personal",
     },
   ];
