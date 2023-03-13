@@ -13,6 +13,7 @@ import meet from "../../assets/portfolio/meetups.png";
 import puls from "../../assets/portfolio/pusl.png";
 import wallet from "../../assets/portfolio/wallet.png";
 import flexxy from '../../assets/portfolio/flexxy.png';
+import sweetCorner from '../../assets/portfolio/sweetCorner.png'
 const Portfolio = () => {
   const portfolios = [
     {
@@ -105,6 +106,15 @@ const Portfolio = () => {
       disabled: true,
       style: "text-gray-800",
       label: "team",
+    },
+    {
+      id: 12,
+      src: sweetCorner,
+      code: "https://yuliiadikun.github.io/sweet-corner/",
+      git: "https://github.com/YuliiaDikun/sweet-corner",
+      disabled: true,
+      style: "text-gray-800",
+      label: "personal",
     },
   ];
 
