@@ -33,14 +33,17 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
+              required
             />
             <input
               className="p-2 bg-transparent border-2 my-4 rounded-md text-white focus:outline-none"
               type="email"
               name="mail"
               placeholder="Enter your e-mail"
+               required
             />
             <textarea
+               required
               name="message"
               rows="10"
               placeholder="Enter your message"
